@@ -4,41 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Murilo Zocatelli - Portfólio Web</title>
-    <style> 
-    #nome {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    #apresentacao {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    .nome-e-descricao {
-        background-color: rgb(196, 196, 231);
-    }
-    #futebol {
-        font-size: 2rem;
-    }
-    #programar {
-        font-variant: small-caps;
-    }
-    #fotografar {
-        font-weight: 600;
-    }
-    #edicao {
-        font-style: oblique;
-        background-color: aquamarine;
-    }
-    .listas {
-        font-size: xx-large;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
-
 <body>
-    <p id="nome" class="nome-e-descricao">Murilo Antonio Zocatelli</p>
-    <img id="foto" src="murilo.jpeg" alt="Rapaz de barba e óculos olhando para cima da camera, de perfil, a foto está em preto e branco" width="300px">
-    <div id="apresentacao" class="nome-e-descricao">
-        <p> Olá, nasci em 1995, dia 04 de setembro - assim com de Beyoncé, portanto tenho 27 anos hoje dia 10 de agosto. Sou natural de <em>Campo Mourão</em> , interior do Paraná, depois de um tanto rodar pra cá voltei. E sou além de corinthiano, <strong> brasileiro </strong> .</p>
+    <div id="container-nome">
+        <p id="nome" class="nome-e-descricao">Murilo Zocatelli</p>
     </div>
+    <div class="inline" id="container-foto">
+        <img id="foto" src="murilo.jpeg" alt="Rapaz de barba e óculos olhando para cima da camera, de perfil, a foto está em preto e branco">
+    </div>
+  
+        <div id="apresentacao" class="nome-e-descricao inline" >
+            <p class="inline"> Olá, nasci em 1995, dia 04 de setembro - assim com de Beyoncé, portanto tenho 27 anos hoje dia 10 de agosto. <br> Sou natural de <em>Campo Mourão</em> , interior do Paraná, depois de um tanto rodar pra cá voltei. <br> E sou além de corinthiano, <strong> brasileiro </strong> .</p>
+        </div>
+    
     <div id="habilidades">
         <ul class="listas">Habilidades que digo que possuo</ul>
             <li id="futebol"><strong>jogar futebol</strong></li>
