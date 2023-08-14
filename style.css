@@ -1,0 +1,47 @@
+body {
+    /* background-color: #DEE2E6 */
+}
+
+#container-nome {
+    border: 2px solid black;
+    background-color: blue;
+}
+
+#nome {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#foto {
+    width: 100px;
+    padding: 15px;
+    /* background-color: gray; */
+    border: solid black 2px;
+}
+/* #apresentacao {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+/* .nome-e-descricao {
+    background-color: rgb(196, 196, 231);
+} */
+#futebol {
+    font-size: 2rem;
+}
+#programar {
+    font-variant: small-caps;
+}
+#fotografar {
+    font-weight: 600;
+}
+#edicao {
+    font-style: oblique;
+    /* background-color: aquamarine; */
+}
+.listas {
+    font-size: xx-large;
+}
+
+.inline {
+    display: inline;
+    margin-left: 20px;
+
+}
